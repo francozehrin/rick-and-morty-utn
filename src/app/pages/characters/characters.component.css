@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap:20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+.character{
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.characters img {
+    width: 100px;
+    border-radius: 50%;
+}
